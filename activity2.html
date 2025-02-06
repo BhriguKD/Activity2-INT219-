@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+      .navbar {
+        background-color: rgb(79, 175, 79);
+        color: rgb(254, 255, 250);
+        text-align: center;
+        padding: 40px 20px 10px;
+      }
+
+      .navbar a {
+        display: inline-block;
+        margin: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: whitesmoke;
+      }
+
+      .container {
+        margin: 3vh 2vh;
+        padding: 30px;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-content: flex-start;
+      }
+
+      .container div {
+        height: 150px;
+        width: 450px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(105, 105, 105, 0.2);
+        border-radius: 10px;
+      }
+
+      .container div h3 {
+        color: rgb(79, 175, 79);
+        margin-bottom: 20px;
+      }
+
+      .container div p {
+        font-size: 90%;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: whitesmoke;
+        background-color: rgb(50, 50, 50);
+        padding: 40px;
+        text-align: center;
+      }
+
+      .footer a {
+        text-decoration: none;
+        color: rgb(79, 175, 79);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>Welcome to Your Website Task</h1>
+        <a href="#_blank">Home</a>
+        <a href="#_blank">About</a>
+        <a href="#_blank">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div>
+          <h3>About CSS</h3>
+          <p>
+            Cascading Style Sheets (CSS) allow you to style and layout your web
+            pages, adding colors, spacing, and more.
+          </p>
+        </div>
+        <div>
+          <h3>Box Model</h3>
+          <p>
+            The CSS box model describes the rectangular boxes generated for
+            elements. It includes margins, borders, padding, and the actual
+            content.
+          </p>
+        </div>
+        <div>
+          <h3>Responsive Design</h3>
+          <p>
+            Responsive design ensures your webpage looks great on all devices,
+            from desktops to mobile phones.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="footer">
+        Created by Bhrigu Kumar Deka | Follow us on
+        <a href="https://instagram.com/jolpaan">Instagram</a>
+        |
+        <a href="https://x.com/Dexterwithspecs">Twitter</a>
+        |
+        <a href="https://www.linkedin.com/in/bhrigukumardeka/">LinkedIn</a>
+      </p>
+    </footer>
+  </body>
+</html>
